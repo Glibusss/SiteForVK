@@ -9,7 +9,7 @@
     <body>
 <div class = "header">
     <div class="sitename">
-        <div class="askme"><p>AskMe</p></div>
+        <div class="askme"><a href="listing_login.html" class="mainpage">AskMe</a></div>
     </div>
     <div class="searchbar">
         <form class="search-form" >
@@ -20,17 +20,19 @@
     </div>
     <div class="askbut">
         <form>
-            <button type = "submit" class = "ask" href = "questionForm.html">ASK!</button>
+            <button type = "submit" class = "ask">ASK!</button>
         </form>
     </div>
-    <div class="login">
-        <div class="logint">
-            <a href = "loginForm.html" name = "loginf">Войти</a>
+    <div class="avatar">
+        <div class="ava">
+            <img src = "images\default_ava.jpg" width = 50 height = 50 alt="Fail to load">
         </div>
     </div>
-    <div class="reg">
-        <div class="regt">
-            <a href = "regForm.html" name = "regf">Регистрация</a>
+    <div class="foruser">
+        <div class="nickname">Nickname</div>
+        <div class="settings">
+            <a href = "settings.html" name = "setting">Настройки</a>
+            <a href = "listing.html" name = "lo">Выйти</a>
         </div>
     </div>
    </div>
@@ -38,9 +40,10 @@
 <div class="container">
     <div class="content">
         <div class="formname2">Question</div>
+        <div class="loginerr">Sorry, wrong data</div>
         <div class="qform"> <form class="quform" >
             <div class = "allf"><p class = "alltitle">Title</p><input type = "text" name ="question" placeholder="Type your question here" class = "que" ></div>
-            <div class = "allf"><p class = "alltitle">Question</p><textarea name = "qdescription"  class = "qdisc" placeholder="Type your text here"></textarea></div>
+            <div class = "allf"><p class = "alltitle">Question</p><textarea name = "qdescription" class = "qdisc" placeholder="Type your text here"></textarea></div>
             <div class = "allf"><p class = "alltitle">Tags</p><input type = "text" name ="tags" placeholder="Type your tags here" class = "tgs" ></div>
            <div class = "subb"> <input type = "submit" value = "ASK!" class="goask"></div>
         
@@ -53,7 +56,7 @@
             <div class="secondtag">Java</div>
             <div class="thirdtag">Python</div>
             <div class="fourthtag">QT</div>
-            <div class="fifthtag">JavaScript</div>
+            <div class="fifthtag">JS</div>
         </div>
         <div class="topusers">
             <p class="tu">Top Users</p>
@@ -62,8 +65,6 @@
                 <div class="thirduser">User3</div>
                 <div class="fourthuser">User4</div>
                 <div class="fifthuser">User5</div>
-                <div class = "goose"><img src="images\goose.jpg" width=150px height = 200px alt="no Goose"></div>
-        
        </div>
    
     </div>
