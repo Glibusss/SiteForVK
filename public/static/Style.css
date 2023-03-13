@@ -91,8 +91,9 @@ table {
 }
 .ask{
     margin: 0 auto;
+    overflow-x: hidden;
     display: block;
-    width:70px;
+    width:50%;
     height: 30px;
     margin-top: 25px;
     margin-bottom:25px;
@@ -106,16 +107,22 @@ border-radius: 15px;
 cursor:pointer;
     white-space: normal;
 }
-.login,.reg,.avatar,.foruser{
+.avatar,.foruser{
     width:20%;
     background: white;
 }
-.logint,.regt{
-    margin-top: 25px;
-    margin-bottom: 25px;
+
+.loginreg{
+    width:40%;
+    overflow-x:hidden;
+    background-color: white;
     text-align: center;
-    font-size: 30px;
-    
+    font-size:22px;
+    padding-top:29px;
+    padding-bottom:29px;
+}
+.regr{
+    margin-left: 10%;
 }
 
     .ava{
@@ -198,7 +205,8 @@ text-align: center;
     background: transparent;
     font-weight:bolder;
     border-radius: 15px;
-    cursor:pointer
+    cursor:pointer;
+    overflow:hidden;
 }
 .gotoreg{
     width:100%;
@@ -218,6 +226,7 @@ text-align: center;
     border-radius: 15px;
     cursor:pointer;
     font-size: 1.25em;
+    overflow:hidden;
 }
 .lgr,.emr,.ncr,.pwr,.pwrr{
     width:20%;
@@ -239,11 +248,16 @@ text-align: center;
     display: flex;
     margin-left:42.5%;
     margin-right:42.5%;
-
+    overflow: hidden;
+}
+.pp{
+    width:100%;
+    height:10%;
+    text-align: center;
 }
 .prevpic{
     margin-top:1%;
-    margin-left:46.5%;
+    
 }
 .chav{
     text-align: center;
@@ -255,6 +269,7 @@ text-align: center;
 }
 .prviewpic{
     display: inline-block;
+
 }
 .avatar-field input{
     display: none;
@@ -262,7 +277,7 @@ text-align: center;
 .allf{
     width:100%;
     margin-top: 1%;
-   
+   align-items: center;
     
 }
 .que,.tgs{
@@ -300,7 +315,8 @@ text-align: center;
     background: transparent;
     font-weight:bolder;
     border-radius: 15px;
-    cursor:pointer
+    cursor:pointer;
+    overflow-x:hidden;
 }
 .alltitle{
     width:100%;
@@ -363,16 +379,18 @@ margin-left:5%;
     display:flex;
     margin-top:1%;
     margin-bottom:2%;
-
+    overflow: hidden;
 }
 .left{
     width:10%;
     height:100%;
+    overflow: hidden;
 }
 .right{
     width:90%;
     height:100%;
     text-align: left;
+    overflow: hidden;
 }
 .topic{
     font-size:20px;
@@ -501,7 +519,8 @@ background-color:aqua;
     background: transparent;
     font-weight:bolder;
     border-radius: 15px;
-    cursor:pointer
+    cursor:pointer;
+    overflow-x:hidden;
 }
 .sidebar{
     width:15%;
@@ -522,7 +541,7 @@ background-color:aqua;
     height:30%;
     width:100%;
     background-color:white;
-  
+    overflow:hidden;
     border-bottom:black;
     border-bottom-width: 3px;
     border-bottom-style: solid;
@@ -539,7 +558,7 @@ background-color:aqua;
     border-left:black;
     border-left-width: 3px;
     border-left-style: solid;
-    
+    overflow:hidden;
 }
 .pt{
     padding-top:10%;
